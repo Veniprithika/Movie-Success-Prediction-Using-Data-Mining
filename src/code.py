@@ -83,7 +83,7 @@ model2.predict(xnew)
 i=input("Director Name : ")
 j=input("Actor1 : ")
 k=input("Actor2 : ")
-l=input("IMDB Score: ")
+l=input("Actor3: ")
 m=int(input("Budget: "))
 xnew=[[i,j,k,l,m]]
 xnew=np.array(xnew)
